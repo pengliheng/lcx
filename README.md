@@ -1,13 +1,17 @@
 这分别是windows和linux下的lcx
 代码来源于网络，并不是我自己写的，很长时间了已经找不到来源了，故无法添加来源，向作者致歉
-##windows下
 
-##linux下
+## windows下
+```
+gcc win_lcx.c -o lcx
+```
+
+## linux下
 编译
 ```
 gcc linux_lcx.c -o lcx
 ```
-####用法
+#### 用法
 ```
 [root@localhost]:~# ./lcx
 Socket data transport tool
